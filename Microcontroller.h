@@ -49,6 +49,7 @@ class Microcontroller
      virtual uint8_t UARTRead() = 0;
      virtual void    UARTREADBytes(uint8_t *bytes, uint8_t amountOfBytes) = 0;
      virtual void    println(uint8_t *bytes) = 0;
+     virtual void    print(uint8_t *bytes) = 0;
 
      virtual void    EEPROM_Write(uint32_t addr, uint8_t data) = 0;
      virtual void    EEPROM_WriteBytes(uint32_t addr, uint8_t data[], uint32_t amountOfBytes) = 0;
