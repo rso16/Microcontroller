@@ -16,6 +16,9 @@
 #define NORMALSPEED 0
 #define DOUBLESPEED 1
 
+// #define INPUT       0
+// #define OUTPUT      1
+
 class Microcontroller
 {
   private:
